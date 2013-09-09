@@ -1,0 +1,3 @@
+bjoerne_my_albums_homepage:
+    pattern:  /hello/{name}
+    defaults: { _controller: BjoerneMyAlbumsBundle:Default:index }

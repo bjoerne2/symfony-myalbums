@@ -1,0 +1,7 @@
+parameters:
+#    bjoerne_my_albums.example.class: Bjoerne\MyAlbumsBundle\Example
+
+services:
+#    bjoerne_my_albums.example:
+#        class: %bjoerne_my_albums.example.class%
+#        arguments: [@service_id, "plain_value", %parameter%]

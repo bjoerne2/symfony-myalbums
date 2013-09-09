@@ -1,0 +1,4 @@
+bjoerne_my_albums:
+    resource: "@BjoerneMyAlbumsBundle/Resources/config/routing.yml"
+    prefix:   /
+
