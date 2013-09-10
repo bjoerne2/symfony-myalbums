@@ -3,7 +3,7 @@
 {% block body -%}
     <h1>Album list</h1>
 
-    <table class="records_list">
+    <table class="records_list table">
         <thead>
             <tr>
                 <th>Id</th>
@@ -21,10 +21,10 @@
                 <td>
                 <ul>
                     <li>
-                        <a href="{{ path('album_show', { 'id': entity.id }) }}">show</a>
+                        <a href="{{ path('album_show', { 'id': entity.id }) }}" class="btn">show</a>
                     </li>
                     <li>
-                        <a href="{{ path('album_edit', { 'id': entity.id }) }}">edit</a>
+                        <a href="{{ path('album_edit', { 'id': entity.id }) }}" class="btn">edit</a>
                     </li>
                 </ul>
                 </td>
@@ -35,7 +35,7 @@
 
         <ul>
         <li>
-            <a href="{{ path('album_new') }}">
+            <a href="{{ path('album_new') }}" class="btn">
                 Create a new entry
             </a>
         </li>
