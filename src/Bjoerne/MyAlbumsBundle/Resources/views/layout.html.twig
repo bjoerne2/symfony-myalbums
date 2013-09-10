@@ -3,7 +3,5 @@
 {% block title %}My Albums{% endblock %}
 
 {% block stylesheets %}
-    {% stylesheets filter='cssrewrite' 'lib/bootstrap/css/bootstrap.css' %}
-        <link rel="stylesheet" href="{{ asset_url }}" />
-    {% endstylesheets %}
+    <link rel="stylesheet" href="{{ asset('css/bootstrap.css') }}">
 {% endblock %}

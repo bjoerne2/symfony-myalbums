@@ -5,6 +5,7 @@
 /app/logs/*
 /build/
 /vendor/
+/components/
 /bin/
 /composer.phar
 .project

@@ -23,14 +23,21 @@
         <ul class="record_actions">
     <li>
         <a href="{{ path('album') }}" class="btn">
+            <i class="icon-list"></i>
             Back to the list
         </a>
     </li>
     <li>
         <a href="{{ path('album_edit', { 'id': entity.id }) }}" class="btn">
+            <i class="icon-pencil"></i>
             Edit
         </a>
     </li>
-    <li>{{ form(delete_form) }}</li>
+    <li>{{ form_start(delete_form) }}
+        <button type="submit" class="btn">
+            <i class="icon-remove"></i>
+            Delete
+        </button>
+    {{ form_end(delete_form) }}</li>
 </ul>
 {% endblock %}
