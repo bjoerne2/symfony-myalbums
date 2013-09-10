@@ -4,4 +4,7 @@
 
 {% block stylesheets %}
     <link rel="stylesheet" href="{{ asset('css/bootstrap.css') }}">
+    {% stylesheets '@BjoerneMyAlbumsBundle/Resources/css/application.css' filter='cssrewrite' %}
+        <link rel="stylesheet" href="{{ asset_url }}" />
+    {% endstylesheets %}
 {% endblock %}
